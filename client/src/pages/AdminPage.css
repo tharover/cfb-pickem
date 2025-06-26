@@ -1,0 +1,92 @@
+.admin-panels {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.fetch-panel {
+  flex: 3;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.week-display {
+  display: inline-block;
+  width: 85px; /* Wide enough for "Week 10", "Week 15", etc. */
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.filters-row label {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.filters-row input,
+.filters-row select {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+.pickem-panel {
+  flex: 1;
+  position: sticky;
+  top: 1rem;
+  padding: 1rem;
+  border: 2px solid #888;
+  border-radius: 8px;
+  background: #fff;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  background-color: #bb0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+thead {
+  background-color: #bb0000;
+  color: white;
+}
+
+.selected-row {
+  background-color: #e6f2ff;
+  border-left: 4px solid #0077cc;
+}
